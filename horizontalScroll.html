@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    .menu-wrapper{
+      max-height: 120px;
+      /* border: 1px solid whitesmoke; */
+      display: flex;
+      overflow-x: auto;
+    
+    } 
+    .menu-wrapper::-webkit-scrollbar{
+        width: 0;
+    }
+
+    
+    .menu-item{
+       min-width: 110px;
+       height: 110px;
+       line-height: 110px;
+       text-align: center;
+       /* background-color: antiquewhite; */
+       margin-right: 2px;
+       flex-grow: 1;
+    }
+    .menu-item a{
+    position: relative;
+    text-decoration: none;
+    color:#4a994a;
+    font-weight: 600;
+  
+    }
+
+
+    </style>
+
+
+</head>
+<body>
+  <div class="menu-wrapper">
+ <div class="menu-item"><a href="#">Promotion</a></div>
+ <div class="menu-item"><a href="#">Starters</a></div>
+ <div class="menu-item"><a href="#">Classic Pizza</a></div>
+ <div class="menu-item"><a href="#">Starters</a></div>
+ <div class="menu-item"><a href="#">Classic Pizza</a></div>
+ <div class="menu-item"><a href="#">Starters</a></div>
+ <div class="menu-item"><a href="#">Classic Pizza</a></div>
+ <div class="menu-item"><a href="#">Starters</a></div>
+ <div class="menu-item"><a href="#">Classic Pizza</a></div>
+ </div>
+
+</body>
+</html>
